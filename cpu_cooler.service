@@ -1,0 +1,13 @@
+[Unit]
+Description=CPU Cooler
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/opt/cpu_cooler
+
+[Install]
+WantedBy=default.target
+Alias=cpu-cooler.service
