@@ -19,6 +19,7 @@ Siga os passos abaixo para executar o projeto:
 
 ```bash
 sudo su
+apt install libhidapi-hidraw0 libhidapi-libusb0
 ```
 
 Configurar as regras do udev: Adicione a regra para permitir o acesso ao dispositivo USB. Isso é necessário para garantir que o dispositivo seja reconhecido corretamente pelo sistema.
@@ -84,6 +85,3 @@ Se desejar contribuir para o projeto, faça um fork, crie uma branch para suas a
 Licença
 
 Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.
-
-
-Agora, você tem o conteúdo do `README.md` sem a formatação extra, pronto para copiar e colar diretamente no seu arquivo.
